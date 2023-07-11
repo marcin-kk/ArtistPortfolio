@@ -40,7 +40,7 @@ a.active {
 }
 
 .gallery {
-    padding: 16px;
+	padding: 16px;
 }
 
 .card {
@@ -52,11 +52,43 @@ a.active {
 .card img {
 	height: 500px;
 	width: 100%;
-    object-fit: cover;
+	object-fit: cover;
+}
+
+.card img:hover {
+	opacity: 0.9;
 }
 
 .card h2 {
 	font-size: 24px;
-    margin: 8px 0 16px 0;
-    font-weight: 300;
+	margin: 8px 0 16px 0;
+	font-weight: 300;
+}
+
+section.about {
+	font-size: 18px;
+	width: 40%;
+	min-width: 600px;
+	margin: 100px 0 100px 200px;
+}
+
+.about h3 {
+	font-size: 40px;
+	font-weight: 300;
+}
+
+.cta {
+	display: inline-block;
+	border-bottom: 1px solid black;
+	margin-top: 20px;
+	padding-bottom: 8px;
+}
+
+.contact {
+	margin-top: 100px;
+}
+
+.contact p {
+	margin: 0;
+	font-size: 20px;
 }
