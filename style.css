@@ -92,3 +92,25 @@ section.about {
 	margin: 0;
 	font-size: 20px;
 }
+
+@media only screen and (max-width: 1000px) {
+	.card {
+		width: 100%;
+	}
+	section.about {
+		margin: 100px 0 100px 100px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.card {
+		padding: 0;
+	}
+	.gallery {
+		padding: 8px;
+	}
+	section.about {
+		margin: 100px auto;
+		min-width: 450px;
+	}
+}
